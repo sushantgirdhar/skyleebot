@@ -45,13 +45,20 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/skylee_bot?startgroup=true"
+            text="Add to Group 👥", url="t.me/Auditor_ProBot?startgroup=true"
         ),
-        InlineKeyboardButton(text="Updates 📢", url="https://t.me/skyleebot"),
+        InlineKeyboardButton(text="Updates 📢", url="https://t.me/ebruiser"),
     ]
 ]
 
-buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
+buttons += [
+    [
+        InlineKeyboardButton(
+            text="Source ↗️", url="github.com/sushantgirdhar/AuditorBot"
+        ),
+        InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
+    ]
+]
 
 
 HELP_STRINGS = f"""
